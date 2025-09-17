@@ -5,9 +5,9 @@ metadata:
   labels: 
     project: roboshop
     purpose: multi-container-demo
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
-    - name: almalinux
-      image: almalinux:9
+spec:   # ✅ spec should be here, not under metadata
+  containers:
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9
