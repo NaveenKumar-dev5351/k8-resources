@@ -11,3 +11,4 @@ spec:   # ✅ spec should be here, not under metadata
     image: nginx
   - name: almalinux
     image: almalinux:9
+    command: ["sleep", "1000"]
